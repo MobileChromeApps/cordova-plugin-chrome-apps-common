@@ -3,6 +3,9 @@ This plugin is a dependency for a few other chromium plugins.
 
 # Release Notes
 
+## 1.0.6 (Mar 17, 2015)
+* Update code comment
+
 ## 1.0.5 (Jan 27, 2015)
 * chrome.runtime: fix getURL when running in Cordova (fixes #487) - Only use manifest to resolve url when running in a Chrome App - Generate correct urls when running under Cordova, based on current location
 * Make all Event.fire()s equate to queueStartUpEvent calls.
