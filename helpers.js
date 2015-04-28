@@ -14,7 +14,7 @@ function getChromeAppFlag() {
 exports.runAtStartUp = function(func) {
   if (isChromeApp) {
     // TODO: Implement done() call back for chrome app case.
-    var mobile = require('org.chromium.bootstrap.mobile.impl');
+    var mobile = require('cordova-plugin-chrome-apps-bootstrap.mobile.impl');
     mobile.onBackgroundPageLoaded.subscribe(func);
   } else {
     channel.onCordovaReady.subscribe(func);
@@ -42,7 +42,7 @@ exports.delayDeviceReadyUntil = function(func) {
 //  - func() called immeditately if deviceready has already fired.
 exports.queueLifeCycleEvent = function(func) {
   if (isChromeApp) {
-    var mobile = require('org.chromium.bootstrap.mobile.impl');
+    var mobile = require('cordova-plugin-chrome-apps-bootstrap.mobile.impl');
     if (mobile.lifeCycleEventFuncs) {
       mobile.lifeCycleEventFuncs.push(func);
     } else {

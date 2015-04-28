@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-var helpers = require('org.chromium.common.helpers');
+var helpers = require('cordova-plugin-chrome-apps-common.helpers');
 
 var Event = function(opt_eventName) {
   this.name = opt_eventName || '';
