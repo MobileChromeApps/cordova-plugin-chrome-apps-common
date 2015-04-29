@@ -23,7 +23,7 @@
     }
   ],
   "author": "",
-  "license": "ISC",
+  "license": "BSD",
   "bugs": {
     "url": "https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-common/issues"
   },
