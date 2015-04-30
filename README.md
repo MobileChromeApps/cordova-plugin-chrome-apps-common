@@ -3,6 +3,9 @@ This plugin is a dependency for a few other chromium plugins.
 
 # Release Notes
 
+## 1.0.7 (April 30, 2015)
+- Renamed plugin to pubilsh to NPM
+
 ## 1.0.6 (Mar 17, 2015)
 * Update code comment
 
