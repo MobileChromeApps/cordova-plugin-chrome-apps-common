@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-chrome-apps-common",
-  "version": "1.0.7",
+  "version": "1.0.8-dev",
   "description": "This plugin is a dependency for a few other chromium plugins.",
   "cordova": {
     "id": "cordova-plugin-chrome-apps-common",
